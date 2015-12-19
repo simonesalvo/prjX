@@ -1,6 +1,5 @@
 package it.simonesalvo.prjX.entity.datastore;
 
-import com.googlecode.objectify.annotation.Cache;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Index;
@@ -14,7 +13,6 @@ import org.joda.time.DateTime;
  */
 
 @Entity
-@Cache //TODO meaning???
 @Data
 public class ApplicationUser {
 
