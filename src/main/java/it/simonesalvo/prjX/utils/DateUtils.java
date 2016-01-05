@@ -1,7 +1,6 @@
 package it.simonesalvo.prjX.utils;
 
 import com.google.common.collect.ImmutableList;
-import lombok.extern.slf4j.Slf4j;
 import org.joda.time.DateTime;
 
 import javax.annotation.Nullable;
@@ -16,7 +15,6 @@ import java.util.Locale;
  * www.simonesalvo.it
  */
 
-@Slf4j
 public class DateUtils {
 
     private final static Logger LOGGER = Logger.getLogger(DateUtils.class.getName());

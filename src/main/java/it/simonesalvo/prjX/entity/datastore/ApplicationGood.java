@@ -5,7 +5,9 @@ import com.googlecode.objectify.annotation.Id;
 import com.googlecode.objectify.annotation.Index;
 import lombok.Data;
 import lombok.NonNull;
-import org.joda.time.DateTime;
+
+import java.util.Date;
+import java.util.List;
 
 /**
  * Created by Simone Salvo on 19/12/15.
@@ -16,9 +18,27 @@ import org.joda.time.DateTime;
 @Entity
 public class ApplicationGood {
 
+    public ApplicationGood(String title, LocationInformation locInf,
+                           GoodPolicy policy, List<GoodCategory> cat, ApplicationUser usr){
+        this.title = title;
+        this.locationInformation = locInf;
+        this.policy = policy;
+        this.goodCategory = cat;
+        this.usr = usr;
+
+        creationDate = new Date();
+        deletionDate = null;
+        disabledDate = null;
+
+        //TODO what about the good images????
+    }
+
     @Id
+    private Long id;
+
+    @Index
     @NonNull
-    private String id;
+    private ApplicationUser usr;
 
     @Index
     @NonNull
@@ -26,19 +46,40 @@ public class ApplicationGood {
 
     @Index
     @NonNull
-    private DateTime creationDate;
+    private Date creationDate;
 
     @Index
-    @NonNull
     private boolean isDisabled;
 
     @Index
-    @NonNull
-    private boolean isRemoved;
+    private boolean isDeleted;
+
+    private List<String> images;
 
     @Index
     @NonNull
-    private DateTime deletionDate;
+    private LocationInformation locationInformation;
 
+    @Index
+    private Date deletionDate;
+
+    @Index
+    private Date disabledDate;
+
+    @Index
+    @NonNull
+    private GoodPolicy policy;
+
+    @Index
+    private boolean isProposalAccepted;
+
+    @Index
+    @NonNull
+    private List<GoodCategory> goodCategory;
+
+    public void setGoodDelete(){
+        this.deletionDate = new Date();
+        this.isDeleted = true;
+    }
 
 }
