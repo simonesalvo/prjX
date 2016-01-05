@@ -2,35 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4237616-30f7-426d-8fd2-88704784b69d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/application/ApplicationConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/ApplicationProposal.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/cron/ArchivingX.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/helper/CloudStorageHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/CreateGood.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/user/crud/CreateUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/helper/DatastoreHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/DeleteGood.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/user/crud/DeleteUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/ReadGood.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/user/crud/ReadUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/UpdateGood.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/user/crud/UpdateUser.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/create.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/delete.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/read.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/update.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/user/crud/create.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/user/crud/delete.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/user/crud/read.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/user/crud/update.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/ApplicationGood.java" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/ApplicationGood.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/ApplicationUser.java" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/ApplicationUser.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/utils/Constants.java" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/utils/Constants.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/utils/DateUtils.java" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/utils/DateUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/findbugs-idea.xml" afterPath="$PROJECT_DIR$/.idea/findbugs-idea.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prjX.iml" afterPath="$PROJECT_DIR$/prjX.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/prjX_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/prjX_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/ConfirmRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/CreateRequest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/utils/DatastoreUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/cron/DeleteRequests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/cron/DisableGood.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/cron/DisableUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/GoodCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/GoodPolicy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/LocationInformation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/helper/MailHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/filter/ObjectifyRegisterFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/Querystring.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/cron/Reminder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/cron/RemoveGood.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/cron/RemoveUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/Request.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/RequestKind.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/Search.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/TestEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/UserKind.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/X.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/cron.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="prjX.iws" />
@@ -38,6 +35,42 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path=".idea/libraries/Maven__com_googlecode_objectify_objectify_5_1_6.xml" />
+    <ignored path=".idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_code_findbugs_annotations_2_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+    <ignored path=".idea/libraries/Maven__info_debatty_java_string_similarity_0_13.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_oauth_client_google_oauth_client_appengine_1_21_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_javassist_javassist_3_18_2_GA.xml" />
+    <ignored path=".idea/libraries/Maven__org_reflections_reflections_0_9_9_RC2.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_api_client_google_api_client_1_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__javax_transaction_transaction_api_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_http_client_google_http_client_1_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__commons_codec_commons_codec_1_3.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_http_client_google_http_client_appengine_1_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_1_3.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_apis_google_api_services_storage_v1_rev15_1_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_api_client_google_api_client_appengine_1_21_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_http_client_google_http_client_jackson2_1_21_0.xml" />
+    <ignored path=".idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
+    <ignored path=".idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_api_client_google_api_client_servlet_1_21_0.xml" />
+    <ignored path=".idea/libraries/Maven__javax_jdo_jdo2_api_2_3_eb.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_http_client_google_http_client_jdo_1_21_0.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_appengine_appengine_api_1_0_sdk_1_9_30.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_oauth_client_google_oauth_client_1_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_appengine_tools_appengine_gcs_client_0_5.xml" />
+    <ignored path=".idea/libraries/Maven__org_jasypt_jasypt_1_9_2.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_guava_guava_19_0.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_code_gson_gson_2_5.xml" />
+    <ignored path=".idea/libraries/Maven__joda_time_joda_time_2_9_1.xml" />
+    <ignored path=".idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" />
+    <ignored path=".idea/libraries/Maven__org_projectlombok_lombok_1_16_6.xml" />
+    <ignored path=".idea/libraries/Maven__commons_io_commons_io_2_4.xml" />
+    <ignored path=".idea/libraries/Maven__com_google_oauth_client_google_oauth_client_servlet_1_21_0.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,16 +148,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateGood.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/CreateGood.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/datastore/Request.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -145,14 +168,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadGood.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReadGood.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/ReadGood.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4620853">
+            <state vertical-scroll-proportion="0.0">
               <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.872038">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/entity/pojo/IterableList.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/service/MailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/helper/DatastoreService.java" />
         <option value="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/helper/CloudStorageHelper.java" />
@@ -228,6 +260,7 @@
         <option value="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/cron/DisableGood.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/Search.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -1114,7 +1147,7 @@
       <workItem from="1450971873683" duration="45000" />
       <workItem from="1450971979151" duration="64000" />
       <workItem from="1451123128911" duration="30690000" />
-      <workItem from="1451731219834" duration="1104000" />
+      <workItem from="1451731219834" duration="1354000" />
     </task>
     <task id="LOCAL-00001" summary="+ Adding constants, dates and jsonUtils classes&#10;+ Adding pom dependecies">
       <created>1450554589779</created>
@@ -1140,11 +1173,17 @@
       <option name="project" value="LOCAL" />
       <updated>1450563817586</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="* Adding several classes and config files * Developing">
+      <created>1451982987310</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1451982987310</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54292000" />
+    <option name="totallyTimeSpent" value="54542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1162,6 +1201,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928678" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3068182" sideWeight="0.48707592" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39914772" sideWeight="0.31421646" order="7" side_tool="true" content_ui="tabs" />
@@ -1184,7 +1224,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3693182" sideWeight="0.6857835" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3068182" sideWeight="0.48707592" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32776934" sideWeight="0.48707592" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1237,7 +1276,8 @@
     <MESSAGE value="*Adding datastore main entities&#10;" />
     <MESSAGE value="* Adding Cruds" />
     <MESSAGE value="* Adding several classes and config xml files" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Adding several classes and config xml files" />
+    <MESSAGE value="* Adding several classes and config files * Developing" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Adding several classes and config files * Developing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1292,13 +1332,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/5.1.6/objectify-5.1.6.jar!/com/googlecode/objectify/ObjectifyService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24456522">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/5.1.6/objectify-5.1.6.jar!/com/googlecode/objectify/annotation/Subclass.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32608697">
@@ -1419,6 +1452,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.692">
           <caret line="161" column="25" selection-start-line="161" selection-start-column="25" selection-end-line="161" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1426,6 +1460,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1433,6 +1468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1440,6 +1476,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1501,6 +1538,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1508,6 +1548,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1515,6 +1556,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1522,6 +1564,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1529,6 +1572,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1546,6 +1590,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1621,6 +1666,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="6.687898">
           <caret line="75" column="70" selection-start-line="75" selection-start-column="70" selection-end-line="75" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1713,11 +1761,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/it/simonesalvo/prjX/servlet/good/crud/ReadGood.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4620853">
+        <state vertical-scroll-proportion="0.0">
           <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.872038">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
