@@ -2,51 +2,9 @@
 <!-- TODO set frequency lower-->
 <cronentries>
     <cron>
-        <url>/cron/launch?type=libraries</url>
-        <description>Updates Datastore entities from AODocs back-end values</description>
+        <url>/cron/.....</url>
+        <description>blablabla</description>
         <schedule>every 60 minutes</schedule>
-    </cron>
-
-    <cron>
-        <url>/cron/launch?type=labels</url>
-        <description>Updates Gmail users' labels from Datastore entities</description>
-        <schedule>every 6 hours</schedule>
-    </cron>
-
-    <cron>
-        <url>/cron/launch?type=deletion</url>
-        <description>Processes deleted AODocs libraries and updates Gmail users' labels</description>
-        <schedule>every day 09:00</schedule>
-    </cron>
-
-    <!--<cron>
-        <url>/cron/launch?type=documents</url>
-        <description>Creates new AODocs documents from Gmail labelled messages</description>
-        <schedule>every day 23:00</schedule>
-    </cron>-->
-
-    <cron>
-        <url>/cron/launch?type=histories</url>
-        <description>Fetches all the changes in the users' Gmail inboxes</description>
-        <schedule>every 15 minutes synchronized</schedule>
-    </cron>
-    
-    <cron>
-        <url>/cron/launch?type=pendingTasks</url>
-        <description>Retries the execution of pending tasks</description>
-        <schedule>every 15 minutes synchronized</schedule>
-    </cron>
-
-    <cron>
-        <url>/cron/launch?type=pendingEvents</url>
-        <description>Retries the execution of pending events</description>
-        <schedule>every 15 minutes synchronized</schedule>
-    </cron>
-
-    <cron>
-        <url>/cron/launch?type=aggregateAuditLogs</url>
-        <description>Aggregate the document creation audit log for HOUR/DAY/WEEK/MONTH/YEAR</description>
-        <schedule>every 1 hours from 00:15 to 23:15</schedule>
     </cron>
 
 </cronentries>
