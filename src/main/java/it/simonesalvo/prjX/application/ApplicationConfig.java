@@ -5,8 +5,9 @@ package it.simonesalvo.prjX.application;
  * www.simonesalvo.it
  */
 public class ApplicationConfig {
+    public static final String APPLICATION_JSON	= "application/json";
 
-    public static final String APPLICATION_NAME = "Email to AODocs";
+    public static final String APPLICATION_NAME = "blabla";
     public static final String APP_SENDER_NAME = "[" + APPLICATION_NAME + "]";
     public static final String applicationId = "";
     public static final String serviceAccountEmail = "";
