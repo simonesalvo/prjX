@@ -82,4 +82,9 @@ public class ApplicationGood {
         this.isDeleted = true;
     }
 
+    public void setGoodDisabled(){
+        this.disabledDate = new Date();
+        this.isDisabled= true;
+    }
+
 }

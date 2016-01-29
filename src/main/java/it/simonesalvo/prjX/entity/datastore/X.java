@@ -23,6 +23,10 @@ public class X {
     private Date XDate;
 
     @Index
+    private Date archiviedDate;
+
+
+    @Index
     private boolean isArchived;
 
     @Index
@@ -30,4 +34,8 @@ public class X {
     private ApplicationProposal applicationProposal;
 
 
+    public void setArchivied() {
+        isArchived = true;
+        archiviedDate = new Date();
+    }
 }

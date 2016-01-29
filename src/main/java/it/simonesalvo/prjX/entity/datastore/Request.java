@@ -53,4 +53,8 @@ public class Request {
     @Index
     private ApplicationUser applicationUser;
 
+    public void setRejected() {
+        rejectedDate = new Date();
+        isRejected = true;
+    }
 }
